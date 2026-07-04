@@ -1,0 +1,30 @@
+.feature1Container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 6rem 4rem;
+  box-sizing: border-box;
+  background-color: #14a258;
+  color: #fff;
+  height:100vh;
+  border-radius: 80px 0 0 0;
+}
+
+.feature1Left {
+  width: 530px;
+}
+
+.feature1Number {
+  letter-spacing: 4px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.feature1Title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.feature1Subtitle {
+  font-size: 20px;
+}

@@ -1,0 +1,30 @@
+.feature2Container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 6rem 4rem;
+  box-sizing: border-box;
+  background-color: #1f4cc9;
+  color: #fff;
+  height:100vh;
+  border-radius: 0 80px 0 0;
+}
+
+.feature2Right {
+  width: 530px;
+}
+
+.feature2Number {
+  letter-spacing: 4px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.feature2Title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.feature2Subtitle {
+  font-size: 20px;
+}

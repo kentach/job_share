@@ -1,0 +1,36 @@
+/* ドットデザイン */
+.dot,
+.smallDot {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.dot {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.smallDot {
+  width: 14px;
+  height: 14px;
+}
+
+.dotYellow {
+  background-color: #ffc247;
+}
+
+.dotGreen {
+  background-color: #1bd340;
+}
+
+.dotRed {
+  background-color: #ff5c5c;
+}
+
+.dotPurple {
+  background-color: #9b6ef3;
+}

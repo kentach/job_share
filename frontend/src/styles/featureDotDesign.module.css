@@ -1,0 +1,53 @@
+.dot,
+.smallDot {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.dot {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+  width: 20px;
+  height: 20px;
+  box-shadow: 0 0 20px currentColor;
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 10px currentColor;
+  }
+  50% {
+    box-shadow: 0 0 25px currentColor;
+  }
+}
+
+.smallDot {
+  width: 14px;
+  height: 14px;
+}
+
+.dotYellow {
+  background-color: #ffc247;
+  box-shadow:
+    0 0 10px #ffc247,
+    0 0 20px #ffc247,
+    0 0 30px rgba(255, 194, 71, 0.5);
+}
+
+.dotGreen {
+  background-color: #1bd340;
+  box-shadow: 0 0 20px #ffc247;
+}
+
+.dotRed {
+  background-color: #ff5c5c;
+  box-shadow: 0 0 20px #ffc247;
+}
+
+.dotPurple {
+  background-color: #9b6ef3;
+  box-shadow: 0 0 20px #ffc247;
+}

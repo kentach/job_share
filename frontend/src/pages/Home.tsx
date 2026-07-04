@@ -1,18 +1,27 @@
-import { Link } from "react-router-dom";
-import styles from "../styles/home.module.css";
+import styles from "../styles/header.module.css";
+import { useState } from "react";
+
+import Header from "./Header";
+import Feature1 from "./Feature1";
+import Feature2 from "./Feature2";
+import Feature3 from "./Feature3";
+import HeaderTitle from "./HeaderTitle";
 
 const Home = () => {
-  return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>JobHuntへようこそ！</h1>
-      <p className={styles.description}>
-        RUNTEQでの就活体験記をシェアできるプラットフォームです。
-      </p>
-      <Link to="/tasks" className={styles.link}>
-        早速、シェアしてみる
-      </Link>
-    </div>
-  )
-}
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const handleClickOpen = (open: boolean) => () => {
+    setDrawerOpen(open);
+  };
 
-export default Home
+  return (
+    <>
+      <Header drawerOpen={drawerOpen} handleClickOpen={handleClickOpen} />
+      <HeaderTitle />
+      <Feature1 />
+      <Feature2 />
+      <Feature3 />
+    </>
+  );
+};
+
+export default Home;
