@@ -4,12 +4,12 @@ import styles from "../styles/home.module.css";
 const Home = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>タスク管理アプリ</h1>
+      <h1 className={styles.title}>JobHuntへようこそ！</h1>
       <p className={styles.description}>
-        React×Vite×React Routerで作るタスク管理アプリです。
+        RUNTEQでの就活体験記をシェアできるプラットフォームです。
       </p>
       <Link to="/tasks" className={styles.link}>
-        タスク一覧へ
+        早速、シェアしてみる
       </Link>
     </div>
   )
